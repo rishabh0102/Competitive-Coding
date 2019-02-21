@@ -39,7 +39,6 @@ int main(int argc, char const *argv[])
 		else{
 			int dista_b = b[0];
 			for(int i = 1;i<n-1;i++){
-			// cout << i <<" "<< n-i-1<<endl;
 			if(a[i] + b[i] < dista_b || a[i] == 0 || b[i] == 0 || a[n-1]+b[i] < a[i] || a[i]+b[0] < b[i]){
 				cout<<"No"<<endl;
 				flag = 0;
