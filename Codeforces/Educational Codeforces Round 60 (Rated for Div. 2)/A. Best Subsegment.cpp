@@ -17,12 +17,14 @@ int main(int argc, char const *argv[])
 		else if(x > mx){
 			mx = x;
 			cnt = 1;
+			result = 1;
 		}
 		else{
 			result = max(result, cnt);
 			cnt = 0;
 		}
 	}
+	result = max(result, cnt);
 	cout << result<<endl;
 	return 0;
 }
