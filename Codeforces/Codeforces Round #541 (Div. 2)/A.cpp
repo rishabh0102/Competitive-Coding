@@ -20,6 +20,8 @@ typedef pair<int,int> ii;
 int main(int argc, char const *argv[])
 {
 	io
-	
+	ll w1, h1, w2, h2;
+	cin >> w1 >> h1 >> w2 >>h2;
+	cout << 2*(h1+h2) + w1 + w2 + w1-w2 + 4;
 	return 0;
 }
